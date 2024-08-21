@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'gang';
+    src: url('./assets/font/go3v2.ttf') format('truetype');
+  }
+}
+
+@layer components {
+  .background {
+    @apply h-screen w-screen overflow-clip bg-cover bg-no-repeat bg-center;
+  }
+}
+
+html {
+  font-family: 'gang';
+}
