@@ -18,7 +18,7 @@ export default {
       'md': { 'max': '600px' },
       // => @media (max-width: 767px) { ... }
 
-      'sm': { 'max': '350px' },
+      'sm': { 'max': '380px' },
       // => @media (max-width: 639px) { ... }
     },
     letterSpacing: {
@@ -36,6 +36,7 @@ export default {
       },
       backgroundImage: {
         'hero': "url('./assets/image/landing.png')",
+        'dep_bg': "url('./assets/image/department_bg.png')",
       },
       dropShadow: {
         'default': '2px 2px 4px rgba(0, 0, 0, 0.5)',
